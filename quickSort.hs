@@ -1,6 +1,4 @@
--- quickSort :: (Ord a) => [a] -> [a]
-
-
+quickSort :: (Ord a) => [a] -> [a]
 quickSort [] = []
 quickSort x = case x of
                 x:xs -> case xs of 
